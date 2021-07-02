@@ -1,2 +1,2 @@
 # my-freecodecamp-projects
-projects fro the freecodecamp
+projects from the freecodecamp
