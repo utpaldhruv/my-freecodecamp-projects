@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title{
+    margin: 6%;
+}
+
+#title h1{
+    font-size: 50px;
+    font-family: Montserrat;
+    font-weight: 800;
+    text-align: center;
+}
+
+#title p{
+    font-family: Montserrat;
+    font-size: 15px;
+    text-align: center;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-div{
+    width: 80%;
+    margin: auto;
+}
+
+#image{
+    max-height: 30%;
+    max-width: 30%;
+    display: block;
+    margin: auto;
+    box-shadow: 0px 10px 13px -7px #000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+#img-caption{
+    font-family: Montserrat;
+    font-size: 15px; 
+    text-align: center;
+}
+
+#tribute-info{
+    width: 80%;
+    margin-top: 5%;
+}
+
+#tribute-info h2{
+    font-family: Montserrat;
+    font-size: 35px; 
+    text-align: center;
+    font-weight: 500;
+}
+
+#tribute-info p{
+    font-family: Montserrat;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.more{
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.more a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: green;
+}
+
+.thoughts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.thoughts h2{
+    text-align: center;
+}
+
+.quote{
+    padding-top: 20px;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 2%;
+    grid-column-gap: 2%;
+}
+
+.quote div{
+    width: 90%;
+    padding: 2%;
+}
+
+.quote p{
+    font-family: Montserrat;
+    font-size: 20px;
+    text-align: center;
+}
+
+.quote h3{
+    font-family: Montserrat;
+    font-size: 25px; 
+    text-align: end;
+    font-weight: 500;
+}
+
+.fifty{
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.fifty a{
+    text-decoration: none;
+}
+
+footer{
+    margin: 5%;
+    text-align: center;
+}
+
+@media (max-width: 600px){
+    #title h1{
+        font-size: 40px;
+        font-family: Montserrat;
+        font-weight: 800;
+    }
+
+   
+}
