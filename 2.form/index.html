@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-format">
+        <div class="heading">
+            <h1 id="title">Student Survey</h1>
+            <p id="description">We want collect data about students.</p>
+        </div>
+        <form action="" id="survey-form">
+            <div class="name">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name.." required>
+            </div>
+
+            <div class="email">
+                <label for="email" id="email-label">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Your e-mail.." required>
+            </div>
+
+            <div class="age">
+                <label for="number" id="number-label">Age</label>
+                <input type="number" id="number" name="number" placeholder="Your age.." required min="12" max="65">
+            </div>
+
+            <div class="gender">
+                <p>Please select your gender:</p>
+                <input type="radio" id="male" name="gender" value="male" checked>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </div>
+
+            <div class="qualification">
+                <label for="country">Qualification: </label>
+                <select id="dropdown" name="country">
+                    <option value="australia">Middle School</option>
+                    <option value="canada">High School</option>
+                    <option value="usa">Under Graduate</option>
+                    <option value="usa">Post Graduate</option>
+                    <option value="usa">Other</option>
+                </select>
+            </div>
+
+            <div class="subjects">
+                <p>Do you have this items: </p>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1">a bike</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2">a car</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3">a laptop</label>
+            </div>
+
+            <div class="sugestion">
+                <label for="w3review">other-sugestion</label>
+                <textarea id="other-sugestion" name="other-sugestion" rows="4" cols="50"></textarea>
+            </div>
+
+            <div class="button">
+                <input type="submit" value="Submit" id="submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

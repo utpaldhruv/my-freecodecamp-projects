@@ -1,0 +1,65 @@
+body{
+    width: 100%;
+    background-color: aqua;
+}
+
+.form-format{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+}
+
+#title{
+    font-size: 50px;
+    font-family: Montserrat;
+    font-weight: 800;
+    text-align: center;
+}
+
+#description{
+    font-family: Montserrat;
+    font-size: 25px;
+    text-align: center;
+}
+
+#survey-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.name, .age, .email{
+    display: flex;
+    flex-direction: column;
+}
+
+#survey-form div{;
+    margin: 5%;
+}
+
+label{
+    font-family: Montserrat;
+    font-size: 25px;
+}
+
+input{
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+p{
+    font-family: Montserrat;
+    font-size: 25px;
+}
+
+#dropdown{
+    font-family: Montserrat;
+    font-size: 25px;
+}
+
+.button{
+    display: block;
+    margin: auto;
+}
